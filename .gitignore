@@ -1,3 +1,20 @@
+# Archivos y directorios generales
+*.log
+*.tmp
+.DS_Store
+*~
+
+# Directorios comunes
+/target/
+/.idea/
+/.vscode/
+/.cpcache/
+/out/
+
+# Archivos específicos de Clojure
+deps.edn.bak
+.lein-repl-history
+
 # Ignore Clojure build artifacts
 *.class
 *.log
